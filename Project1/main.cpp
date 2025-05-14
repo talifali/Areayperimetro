@@ -23,7 +23,8 @@ int main() {
 
 
     //EJERCICIO 2
-    float N, S;
+    /*
+  * float N, S;
 
     int M = 0;
     int F = 0; 
@@ -49,6 +50,77 @@ int main() {
     cin >> PM;
     cout << "Porcentaje Femenino";
     cin >> PF;
-
-
 }
+ */
+// EJERCICIO 3
+    /*
+  * float N, E, P;
+    float sumaEdades = 0, sumaPesos = 0;
+
+    cout << "Ingrese la cantidad de estudiantes a medir ";
+    cin >> N;
+
+    for(int i = 1; i <= N; i++) {
+        
+    cout << "Ingrese la edad de los estudiantes";
+    cin >> E;
+    sumaEdades += E;
+
+    cout << "Ingrese el peso de los estudiantes";
+    cin >> P;
+    sumaPesos += P; 
+
+    }
+
+    float ME = sumaEdades / N;
+    float MP = sumaPesos / N;
+
+    cout << "Edad media: " << ME ;
+
+    cout << "Peso medio: " << MP ;
+}
+*/ 
+
+// EJERCICIO 4 
+    /*
+  *
+
+    int D = 0; 
+    float N ; 
+
+    cout << "Ingrese el número" ;
+    cin >> N;
+
+    for (int i = 1; i <= N; i++) {
+        if (N % i == 0) {
+            D++;
+        }
+    }
+
+    if (D == 2) {
+        cout << "Es primo" ;
+    }
+    if (D >= 2) {
+        cout << "No es primo" ;
+    }
+*/
+
+// EJERCICIO 5
+ /*
+  *
+int N;
+int F = 1;
+
+cout << "Ingrese el número";
+cin >> N; 
+
+for (int i = 1; i <= N; i= i+1) {
+    F *= i;
+}
+cout << "El factorial de " << N << " es: " << F;
+    }
+    */
+
+
+
+
